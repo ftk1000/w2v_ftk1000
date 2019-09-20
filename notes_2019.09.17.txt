@@ -1,14 +1,15 @@
 Source code from https://code.google.com/archive/p/word2vec/source/default/source
 has been uploaded to this repo as     source-archive.zip 
-Try to work with this code or 
-clone https://github.com/svn2github/word2vec
-and follow the instructions below
+
+Clone of an SVN repository of the original code can be found at https://github.com/svn2github/word2vec/
+and it is uploaded here as      word2vec-master.zip
+
+
+To build word2vec from second repo follow the instructions below
 
 1. download  ZIPped repo from https://github.com/svn2github/word2vec/
 
-
 2. upload it to Linux and do "unzip word2vec-master.zip"
-
 
 3. download text8.zip using
 wget http://mattmahoney.net/dc/text8.zip -O text8.gz
