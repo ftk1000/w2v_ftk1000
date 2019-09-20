@@ -1,9 +1,15 @@
+Download source code from 
+https://code.google.com/archive/p/word2vec/source/default/source
 
-C02XM03GJGH8:word2vec khafifa$ ls la ..
-ls: la: No such file or directory
-..:
+Follow the instructions
+
+---------
+$ ls
 masked.txt	masked10.txt	masked100.txt	word2vec
-C02XM03GJGH8:word2vec khafifa$ time ./word2vec -train ../masked10.txt -output NAPvectors.bin -cbow 1 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15
+
+$ cd word2vec
+
+word2vec$ time ./word2vec -train ../masked10.txt -output NAPvectors.bin -cbow 1 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15
 Starting training using file ../masked10.txt
 Vocab size: 470
 Words in train file: 19056
@@ -11,27 +17,3 @@ Words in train file: 19056
 real	0m0.570s
 user	0m0.744s
 sys	0m0.106s
-C02XM03GJGH8:word2vec khafifa$ time ./word2vec -train ../masked10.txt -output NAPvectors10.bin -cbow 1 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15
-Starting training using file ../masked10.txt
-Vocab size: 470
-Words in train file: 19056
-
-real	0m0.380s
-user	0m0.728s
-sys	0m0.104s
-C02XM03GJGH8:word2vec khafifa$ time ./word2vec -train ../masked100.txt -output NAPvectors100.bin -cbow 1 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15
-Starting training using file ../masked100.txt
-Vocab size: 1757
-Words in train file: 217269
-Alpha: 0.000005  Progress: 112.11%  Words/thread/sec: 250.15k  
-real	0m1.687s
-user	0m14.872s
-sys	0m0.144s
-C02XM03GJGH8:word2vec khafifa$ time ./word2vec -train ../masked.txt -output NAPvectors.bin -cbow 1 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15
-Starting training using file ../masked.txt
-Vocab size: 22823
-Words in train file: 104249028
-Alpha: 0.028327  Progress: 43.35%  Words/thread/sec: 182.57k
-
-
-/Users/khafifa/nlp_from_github/w2v/word2vec
