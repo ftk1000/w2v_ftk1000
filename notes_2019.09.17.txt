@@ -1,12 +1,114 @@
-Download source code from 
-https://code.google.com/archive/p/word2vec/source/default/source
+Source code from https://code.google.com/archive/p/word2vec/source/default/source
+has been uploaded to this repo as     source-archive.zip 
+Try to work with this code or 
+clone https://github.com/svn2github/word2vec
+and follow the instructions below
 
-Follow the instructions
+1. download  ZIPped repo from https://github.com/svn2github/word2vec/
 
----------
-$ ls
-masked.txt	masked10.txt	masked100.txt	word2vec
 
+2. upload it to Linux and do "unzip word2vec-master.zip"
+
+
+3. download text8.zip using
+wget http://mattmahoney.net/dc/text8.zip -O text8.gz
+or
+http://mattmahoney.net/dc/text8.zip
+NOTE: on MAC unzip text8.zip worked
+
+
+4. FTP text8.zip to Linux and unzip as follows:
+cp text8.zip text8.gz
+gzip -d text8.gz -f
+
+now we have
+ text8.zip
+ text8
+
+
+5. try to run make. 
+If you see ERROR:
+word2vec-master$ make
+ gcc word2vec.c -o word2vec -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result
+make: gcc: Command not found
+make: *** [word2vec] Error 127
+
+6. Install GCC
+  first become a root via
+pbrun beroot
+and login with duo
+
+[ word2vec-master]$ pbrun beroot
+You are authorized.
+Type the number for the choice you wish to authenticate with
+
+ -6b- now install gcc as described here http://haneefputtur.com/install-gcc-citrix-xen-server.html
+ Specifically
+ $ sudo yum –enablerepo=base –disablerepo=citrix install traceroute
+ 
+
+If you want to enable base repo on XenServer permanently by default, you can update /etc/yum.repos.d/CentOS-Base.repo as follows.
+
+$ sudo sed -i -e “s/enabled=0/enabled=1/” /etc/yum.repos.d/CentOS-Base.repo
+ 
+
+From this point on, you can install any software package available in base repository without explicitly enabling it.
+
+$ sudo yum install vim-enhanced
+$ sudo yum install gcc
+
+
+
+7. run make
+as root if necessary.
+
+   But first try as yourself 
+word2vec-master]$ make
+gcc word2vec.c -o word2vec -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result
+gcc word2phrase.c -o word2phrase -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result
+gcc distance.c -o distance -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result
+distance.c: In function ‘main’:
+distance.c:31:8: warning: unused variable ‘ch’ [-Wunused-variable]
+   char ch;
+        ^
+gcc word-analogy.c -o word-analogy -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result
+word-analogy.c: In function ‘main’:
+word-analogy.c:31:8: warning: unused variable ‘ch’ [-Wunused-variable]
+   char ch;
+        ^
+gcc compute-accuracy.c -o compute-accuracy -lm -pthread -O3 -march=native -Wall -funroll-loops -Wno-unused-result
+compute-accuracy.c: In function ‘main’:
+compute-accuracy.c:29:109: warning: unused variable ‘ch’ [-Wunused-variable]
+   char st1[max_size], st2[max_size], st3[max_size], st4[max_size], bestw[N][max_size], file_name[max_size], ch;
+                                                                                                             ^
+chmod +x *.sh
+
+
+NOTE: On Mac I had to replace each <malloc.h> by <stdlib.h>
+
+
+
+8. run word2vec NN model as specified in https://github.com/svn2github/word2vec/blob/master/demo-word.sh
+
+time ./word2vec -train text8 -output vectors.bin -cbow 1 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15
+./distance vectors.bin
+
+
+==============================================================
+ADDING PY WRAPPER from https://github.com/danielfrg/word2vec
+
+
+1. download ZIP repo from https://github.com/danielfrg/word2vec
+   FTP  as word2vec-master.zip
+   move to /home/tmp/
+   unzip word2vec-master.zip  into word2vec-master/
+[tmp]$ cd word2vec-master/
+[ ord2vec-master]$ ls
+ci      Dockerfile       examples  Makefile     README.md   requirements.txt  setup.py       word2vec
+DEV.md  environment.yml  LICENSE   MANIFEST.in  RELEASE.md  setup.cfg         versioneer.py
+
+
+==============================================================
 $ cd word2vec
 
 word2vec$ time ./word2vec -train ../masked10.txt -output NAPvectors.bin -cbow 1 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15
