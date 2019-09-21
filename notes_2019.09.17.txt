@@ -92,7 +92,12 @@ NOTE: On Mac I had to replace each <malloc.h> by <stdlib.h>
 8. run word2vec NN model as specified in https://github.com/svn2github/word2vec/blob/master/demo-word.sh
 
 time ./word2vec -train text8 -output vectors.bin -cbow 1 -size 200 -window 8 -negative 25 -hs 0 -sample 1e-4 -threads 20 -binary 1 -iter 15
+
+9. Try
 ./distance vectors.bin
+
+
+
 
 
 ==============================================================
