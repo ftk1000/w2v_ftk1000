@@ -127,6 +127,19 @@ Collecting word2vec
     ----------------------------------------
 Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-7OHBSq/word2vec/
 
+NOTE: default python is python 2.7
+checked and set default to python3
+> alias python=python3
+DIDN'T HELP
+
+> sudo apt install python3-pip
+> pip3 install --upgrade setuptools
+FAILED
+> pip3 install word2vec 
+FAILED
+> sudo apt-get install libpcap-dev libpq-dev
+
+
 > cd /home/farid/w2v_py/word2vec/examples
 
 NOW LAUNCH JUPYTER
