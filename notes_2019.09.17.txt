@@ -127,6 +127,7 @@ Collecting word2vec
     ----------------------------------------
 Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-7OHBSq/word2vec/
 
+> cd /home/farid/w2v_py/word2vec/examples
 
 NOW LAUNCH JUPYTER
 > jupyter notebook
