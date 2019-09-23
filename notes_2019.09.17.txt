@@ -108,7 +108,10 @@ INSTALL JUPYTER NOTEBOOK
 INSTALL Python WRAPPER
 //github.com/danielfrg/word2vec
 
-
+read   https://github.com/danielfrg/word2vec/blob/master/README.md   and follow the instructions, 
+e.g., 
+> pip install word2vec
+etc
 
 
 ==============================================================
