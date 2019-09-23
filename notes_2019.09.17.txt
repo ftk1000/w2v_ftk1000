@@ -108,10 +108,25 @@ INSTALL JUPYTER NOTEBOOK
 INSTALL Python WRAPPER
 //github.com/danielfrg/word2vec
 
+INSTALL PIP
+> sudo apt install python-pip
+
 read   https://github.com/danielfrg/word2vec/blob/master/README.md   and follow the instructions, 
 e.g., 
 > pip install word2vec
-etc
+Collecting word2vec
+  Downloading https://files.pythonhosted.org/packages/98/9c/0cc6019be231950235517c29d2d6a2fca76dfa75ad4162ccce22fb1b4364/word2vec-0.9.4.tar.gz (54kB)
+    100% |████████████████████████████████| 61kB 1.1MB/s 
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-build-7OHBSq/word2vec/setup.py", line 23, in <module>
+        from Cython.Build import cythonize
+    ImportError: No module named Cython.Build
+    
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-7OHBSq/word2vec/
+
 
 
 ==============================================================
