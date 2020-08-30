@@ -13,6 +13,8 @@ prediction), to disambiguate entities (entity resolution), to extract taxonomies
   -  Compositional vector space models have also been considered in cognitive science and natural language processing, e.g., to model symbolic structures, to represent the semantic meaning of phrases, and as models for associative memory (see e.g., Smolensky (1990); Plate (1995); Mitchell and Lapata (2008); Socher et al. (2012)). In this work, we do not only draw inspiration from these models, but we will also highlight the connections of HOLE to holographic models of associative memory.
   - Compositional vector space models provide an elegant way to learn the characteristic functions of the relations in a knowledge graph, as they allow to cast the learning task as a problem of supervised representation learning. Here, we discuss models of the form  Pr(φ_p(s, o) = 1|Θ) = σ(η_spo) = σ(r^T_p(e_s ◦ e_o))
   - Another way to compute composite representations is via concatenation, projection and subsequent application of a non-linear function.Socher et al. (2013) noted, the non-linearity ψ provides only weak interactions while leading to a harder optimization problem.
+  - **Holographic Embeddings:** In this section, we propose a novel compositional model for KGs and relational data. To combine the expressive power of the tensor product with the efficiency and simplicity of TRANSE, we use the circular correlation of vectors to represent pairs of entities, i.e., we use the compositional operator:  a ◦ b = a ? b, 
+  - where ?: R^d × R^d → R^d denotes circular correlation: [a ? b]k = \SUM_{i=0}^d a_i b_{(k+i) mod d}. 
 
 []()<br>
 
