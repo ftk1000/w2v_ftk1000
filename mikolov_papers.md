@@ -25,11 +25,11 @@ answer SemEval-2012 Task 2 questions.
 3 describes the recurrent neural network language
 model we used to obtain word vectors; Section 4 discusses the test sets; Section 5 describes our proposed
 vector offset method; Section 6 summarizes our experiments, and we conclude in Section 7.
-   ## Challenges
-   -  Early neural network language
+   -  **CHALLENGE**: Early neural network language
 models for distributed word representations
 demonstrated outstanding performance in terms of
-word-prediction, but also **the need for more computationally efficient models**. This has been addressed
+word-prediction, but also **the need for more computationally efficient models**. 
+    - This has been addressed
 by subsequent work using hierarchical prediction
 (Morin and Bengio, 2005; Mnih and Hinton, 2009;
 Le et al., 2011; Mikolov et al., 2011b; Mikolov et
