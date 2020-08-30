@@ -2,8 +2,19 @@
 
 [Knowledge Graph Embeddings on COLAB](https://colab.research.google.com/github/HybridNLP2018/tutorial/blob/master/02_knowledge_graph_embeddings.ipynb)<br>
 [2015: Holographic Embeddings of Knowledge Graphs, Maximilian Nickel1, Lorenzo Rosasco and Tomaso Poggio](https://arxiv.org/pdf/1510.04935.pdf)<br>
+  - In this work we are concerned with learning from knowledge graphs (KGs), i.e., knowledge bases which model facts as instances
+of binary relations (e.g., bornIn(BarackObama, Hawaii)). This form of knowledge representation can be interpreted as a multigraph, where entities correspond to nodes, facts
+correspond to typed edges, and the type of an edge indicates the kind of the relation.
+  - Recently, vector space embeddings of knowledge graphs have received considerable attention, as they can be used to create statistical models
+of entire KGs, i.e., to predict the probability of any possible relation instance (edge) in the graph. Such models can be used to derive new knowledge from known facts (link
+prediction), to disambiguate entities (entity resolution), to extract taxonomies, and for probabilistic question answering (see e.g., (Nickel, Tresp, and Kriegel, 2011; Bordes et
+al., 2013; Krompaß, Nickel, and Tresp, 2014)).
+
 []()<br>
-[]()<br>
+
+[Unsupervised graph classification/representation learning via distances on COLAB](https://colab.research.google.com/github/stellargraph/stellargraph/blob/v1.1.0/demos/embeddings/gcn-unsupervised-graph-embeddings.ipynb)<br>
+[2019: Unsupervised Inductive Graph-Level Representation Learning via Graph-Graph Proximity  , Yunsheng Bai,et al](https://arxiv.org/pdf/1904.01098.pdf)<br>
+
 []()<br>
 [2018: A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications, 
 Hongyun Cai, Vincent W. Zheng, and Kevin Chen-Chuan Chang](https://arxiv.org/pdf/1709.07604.pdf)<br>
