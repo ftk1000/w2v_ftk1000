@@ -80,8 +80,14 @@ found that neural network language model can be successfully trained in two step
 word vectors are learned using simple model, and then the N-gram NNLM is trained on top of these
 distributed representations of words. While there has been later substantial amount of work that
 focuses on learning word vectors, we consider the approach proposed in [13] to be the simplest one.
-    - 3.1 Continuous Bag-of-Words Model: Training complexity is then
-                        $$Q = N × D + D × log2(V )$$
+    - 3.1 **Continuous Bag-of-Words (CBOW) Model :** The first proposed architecture is similar to the feedforward NNLM, where the non-linear hidden layer is removed and the projection layer is shared for all words (not just the projection matrix);
+thus, all words get projected into the same position (their vectors are averaged). We call this architecture a bag-of-words model as the order of words in the history does not influence the projection.
+Furthermore, we also use words from the future; we have obtained the best performance on the task
+introduced in the next section by building a log-linear classifier with four future and four history
+words at the input, where the training criterion is to correctly classify the current (middle) word.
+    - Training complexity is then                         $$Q = N × D + D × log2(V )$$
+    - Note that the weight matrix between the input and the projection layer is shared for all word positions in the same way as in the NNLM.
+
 
 []()<br>
 
