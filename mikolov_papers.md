@@ -49,11 +49,45 @@ more syntactic regularity than the LSA vectors, and
 do remarkably well in an absolute sense, answering
 more than one in three questions correctly. 
 
-[]()<br>
+[2013.09: Efficient Estimation of Word Representations in Vector Space, Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean, Google Inc](https://arxiv.org/pdf/1301.3781.pdf)<br>
+    - We propose two novel model architectures for computing continuous vector representations of words from very large data sets.
+    - We observe large improvements in accuracy at much lower computational cost, i.e. it takes less than a day to learn high quality word vectors from a 1.6 billion words data set. 
+    - The main goal of this paper is to introduce techniques that can be used for learning high-quality word
+vectors from huge data sets with billions of words, and with millions of words in the vocabulary.
+    - Many different types of models were proposed for estimating continuous representations of words,
+including the well-known Latent Semantic Analysis (LSA) and Latent Dirichlet Allocation (LDA).
+In this paper, we focus on distributed representations of words learned by neural networks, as it was
+previously shown that they perform significantly better than LSA for preserving linear regularities
+among words [20, 31]; LDA moreover becomes computationally very expensive on large data sets.
+    - The probabilistic feedforward neural network language model has been proposed in [1]. It consists
+of input, projection, hidden and output layers. At the input layer, N previous words are encoded
+using 1-of-V coding, where V is size of the vocabulary. The input layer is then projected to a
+projection layer P that has dimensionality N × D, using a shared projection matrix. As only N
+inputs are active at any given time, composition of the projection layer is a relatively cheap operation.
+    - Recurrent neural network based language model has been proposed to overcome certain limitations
+of the feedforward NNLM, such as the need to specify the context length (the order of the model N),
+and because theoretically RNNs can efficiently represent more complex patterns than the shallow
+neural networks [15, 2]. The RNN model does not have a projection layer; only input, hidden and
+output layer. 
+
 
 []()<br>
 
-[]()<br>
+[2014: Neural Word Embedding as Implicit Matrix Factorization, Levy, Goldberg](https://papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matrix-factorization.pdf)<br>
+    - We analyze skip-gram with negative-sampling (SGNS), a word embedding
+method introduced by Mikolov et al., and show that it is implicitly factorizing
+a word-context matrix, whose cells are the pointwise mutual information (PMI) of
+the respective word and context pairs, shifted by a global constant. We find that
+another embedding method, NCE, is implicitly factorizing a similar matrix, where
+each cell is the (shifted) log conditional probability of a word given its context.
+    - We show that using a sparse Shifted Positive PMI word-context matrix to represent
+words improves results on two word similarity tasks and one of two analogy tasks.
+When dense low-dimensional vectors are preferred, exact factorization with SVD
+can achieve solutions that are at least as good as SGNS’s solutions for word similarity tasks. 
+On analogy questions SGNS remains superior to SVD. We conjecture that this stems 
+from the weighted nature of SGNS’s factorization
+
+
 
 []()<br>
 
