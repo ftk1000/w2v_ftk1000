@@ -69,7 +69,19 @@ of the feedforward NNLM, such as the need to specify the context length (the ord
 and because theoretically RNNs can efficiently represent more complex patterns than the shallow
 neural networks [15, 2]. The RNN model does not have a projection layer; only input, hidden and
 output layer. 
-
+  - **New Log-linear Models:** we propose two new model architectures for learning *distributed representations of words* 
+that try to minimize computational complexity. The main observation from the previous
+section was that **most of the complexity is caused by the non-linear hidden layer** in the model. While
+this is what makes neural networks so attractive, we decided to **explore simpler models** that might
+not be able to represent the data as precisely as neural networks, but can possibly **be trained on much
+more data efficiently**.
+  - The new architectures directly follow those proposed in our earlier work [13, 14], where it was
+found that neural network language model can be successfully trained in two steps: first, continuous
+word vectors are learned using simple model, and then the N-gram NNLM is trained on top of these
+distributed representations of words. While there has been later substantial amount of work that
+focuses on learning word vectors, we consider the approach proposed in [13] to be the simplest one.
+    - 3.1 Continuous Bag-of-Words Model: Training complexity is then
+                        $$Q = N × D + D × log2(V )$$
 
 []()<br>
 
