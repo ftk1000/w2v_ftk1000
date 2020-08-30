@@ -11,6 +11,8 @@ of entire KGs, i.e., to predict the probability of any possible relation instanc
 prediction), to disambiguate entities (entity resolution), to extract taxonomies, and for probabilistic question answering (see e.g., (Nickel, Tresp, and Kriegel, 2011; Bordes et al., 2013; Krompaß, Nickel, and Tresp, 2014)).
   - We introduce holographic embeddings (HOLE) which use the circular correlation of entity embeddings (vector representations) to create compositional representations of binary relational data. By using correlation as the compositional operator HOLE can capture rich interactions but simultaneously remains efficient to compute, easy to train, and scalable to very large datasets.
   -  Compositional vector space models have also been considered in cognitive science and natural language processing, e.g., to model symbolic structures, to represent the semantic meaning of phrases, and as models for associative memory (see e.g., Smolensky (1990); Plate (1995); Mitchell and Lapata (2008); Socher et al. (2012)). In this work, we do not only draw inspiration from these models, but we will also highlight the connections of HOLE to holographic models of associative memory.
+  - Pr(φ_p(s, o) = 1|Θ) = σ(η_spo) = σ(r^T_p(e_s ◦ e_o))
+  - Another way to compute composite representations is via concatenation, projection and subsequent application of a non-linear function.Socher et al. (2013) noted, the non-linearity ψ provides only weak interactions while leading to a harder optimization problem.
 
 []()<br>
 
