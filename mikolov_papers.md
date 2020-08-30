@@ -26,10 +26,8 @@ vector offset method; Section 6 summarizes our experiments, and we conclude in S
    -  **CHALLENGE**: Early neural network language
 models for distributed word representations
 demonstrated outstanding performance in terms of
-word-prediction, but also **the need for more computationally efficient models**. 
-
-    - This has been addressed
-by subsequent work using **hierarchical prediction**
+word-prediction, but also **the need for more computationally efficient models** . 
+    - This has been addressed by subsequent work using **hierarchical prediction**
 (Morin and Bengio, 2005; Mnih and Hinton, 2009;
 Le et al., 2011; Mikolov et al., 2011b; Mikolov et
 al., 2011a). 
