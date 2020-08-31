@@ -5,6 +5,9 @@
 
 [w2v demo](https://github.com/Suji04/NormalizedNerd/blob/master/Introduction%20to%20NLP/Word2Vec.ipynb)<br>
 [w2v demo on colab Malstm_quoraquestionpair.ipynb](https://colab.research.google.com/drive/1CXdKsk9mvHiuFMRowELp0NDP5__bsuVy#scrollTo=tfWFxxNGXqDr)<br>
+  - downloads data from Kaggle compeition (Quota questions) and w2v embedding from s3.amazon (see below)
+  - !wget -P /root/input/ -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
+  - model malstm saved as model.h5
 []()<br>
 []()<br>
 []()<br>
