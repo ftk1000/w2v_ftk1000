@@ -15,4 +15,4 @@
 []()<br>
 []()<br>
 []()<br>
-[]()<br>
+[как скачать данные из кагла в колаб](https://www.kaggle.com/c/made-thousand-facial-landmarks/discussion/143089)<br>
