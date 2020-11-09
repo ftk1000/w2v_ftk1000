@@ -16,3 +16,7 @@
 []()<br>
 []()<br>
 [как скачать данные из кагла в колаб](https://www.kaggle.com/c/made-thousand-facial-landmarks/discussion/143089)<br>
+
+# w2v in py
+[2018: implement-your-own-word2vecskip-gram-model-in-python](https://www.geeksforgeeks.org/implement-your-own-word2vecskip-gram-model-in-python/?ref=rp)<br>
+[2018: python-word-embedding-using-word2vec](https://www.geeksforgeeks.org/python-word-embedding-using-word2vec/)<br>
