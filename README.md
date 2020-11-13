@@ -1,4 +1,9 @@
 # w2v_ftk1000
+
+## Chris McCormick's Tutorials 
+[2016: word2vec-tutorial-the-skip-gram-model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)<br>
+[]()<br>
+
 ## essential files for building word2vec models using C code 
 ## py wrapper to play with the model
 
