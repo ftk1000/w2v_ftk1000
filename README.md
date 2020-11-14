@@ -29,6 +29,7 @@
 [Chainer: Word2Vec: Obtain word embeddings](https://chainer-colab-notebook.readthedocs.io/en/latest/notebook/official_example/word2vec.html)<br>
 []()<br>
 []()<br>
-[]()<br>
+# w2v in C
+[google's code](https://code.google.com/archive/p/word2vec/)<br>
 []()<br>
 
