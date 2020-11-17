@@ -1,7 +1,13 @@
 # w2v_ftk1000
 
 ## Chris McCormick's Tutorials 
-[2016: word2vec-tutorial-the-skip-gram-model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)<br>
+[2016: word2vec-tutorial-the-skip-gram-model (Part-1)](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)<br>
+[2016: word2vec-tutorial-Negative Sampling (Part-2)](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/)<br>[]()<br>
+[]()<br>
+[]()<br>
+
+[]()<br>
+[]()<br>
 []()<br>
 
 ## essential files for building word2vec models using C code 
