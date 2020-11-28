@@ -11,6 +11,8 @@
 
 ## TF on embedding
 [This document details feature columns. Think of feature columns as the intermediaries between raw data and Estimators.](https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/feature_columns.md)<br>
+[http://projector.tensorflow.org/](http://projector.tensorflow.org/)<br>
+
 
 ## essential files for building word2vec models using C code 
 [Run C code from py on COLAB: Lecture-6A-Fortran-and-C](https://colab.research.google.com/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-6A-Fortran-and-C.ipynb)<br>
