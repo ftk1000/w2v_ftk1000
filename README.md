@@ -1,5 +1,8 @@
 # w2v_ftk1000
 
+[полезная книжка https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)<br>
+[]()<br>
+
 ## Chris McCormick's Tutorials 
 [2016: word2vec-tutorial-the-skip-gram-model (Part-1)](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)<br>
 [2016: word2vec-tutorial-Negative Sampling (Part-2)](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/)<br>[]()<br>
