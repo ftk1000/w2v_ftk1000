@@ -36,6 +36,7 @@
 # w2v in py
 [2018: implement-your-own-word2vecskip-gram-model-in-python](https://www.geeksforgeeks.org/implement-your-own-word2vecskip-gram-model-in-python/?ref=rp)<br>
 [2018: python-word-embedding-using-word2vec](https://www.geeksforgeeks.org/python-word-embedding-using-word2vec/)<br>
+[Kaggle: gensim-word2vec-tutorial](https://www.kaggle.com/pierremegret/gensim-word2vec-tutorial)<br>
 
 [Chainer: Word2Vec: Obtain word embeddings](https://chainer-colab-notebook.readthedocs.io/en/latest/notebook/official_example/word2vec.html)<br>
 []()<br>
