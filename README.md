@@ -10,6 +10,10 @@
 []()<br>
 
 []()<br>
+
+## Chris Olah's Tutorials 
+[Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)<br>
+[]()<br>
 []()<br>
 
 ## TF on embedding
