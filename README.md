@@ -21,6 +21,16 @@
 [весьма удачная иллюстрация векторного вложения слов и выделения компонент разными методами http://projector.tensorflow.org/](http://projector.tensorflow.org/)<br>
 
 
+## W2V and Matrix Factorization
+[2019: Unifying Word Embeddings and Matrix Factorization — Part 1. The problems of viewing Word2vec as a neural network, and reviewing Levy & Goldberg’s attempted solution.](https://medium.com/radix-ai-blog/unifying-word-embeddings-and-matrix-factorization-part-1-cb3984e95141)<br>
+[reddit: word2vec is actually just matrix factorization](https://www.reddit.com/r/MachineLearning/comments/2m34kp/word2vec_is_actually_just_matrix_factorization/)<br>
+[2016:  BENJAMIN: Skipgram isn't Matrix Factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/)<br>
+[2014: Neural Word Embedding as Implicit Matrix Factorization. Omer Levy and Yoav Goldberg](https://wordrepr.danieldk.eu/levy-2014.pdf)<br>
+[]()<br>
+[]()<br>
+[]()<br>
+
+
 ## essential files for building word2vec models using C code 
 [Run C code from py on COLAB: Lecture-6A-Fortran-and-C](https://colab.research.google.com/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-6A-Fortran-and-C.ipynb)<br>
 ## py wrapper to play with the model
