@@ -5,4 +5,7 @@
 
 ![MultiClassCalssification_Loss_CatCrossEntropy.JPG](MultiClassCalssification_Loss_CatCrossEntropy.JPG)
 
+![MultiClassCalssification_Loss_CatCrossEntropy_p2.JPG](MultiClassCalssification_Loss_CatCrossEntropy_p2.JPG)
+
+
 
