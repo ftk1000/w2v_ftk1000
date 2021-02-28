@@ -1,5 +1,8 @@
 # Loss Functions
 
+
+## [Cross-Entropy Loss Log-likelihood Perspective](https://www.youtube.com/watch?v=6hrnMvYcKVE)
+
 ## [Binary Cross-Entropy](https://www.youtube.com/watch?v=wpPkDSMzdKo)<br>
 ![Loss_BinaryCrossEntropy.JPG](Loss_BinaryCrossEntropy.JPG)<br>
 
