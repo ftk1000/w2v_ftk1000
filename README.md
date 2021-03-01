@@ -22,6 +22,10 @@
 
 
 ## W2V and Matrix Factorization
+* [VERY NICE: 2017: Lilian Weng: learning-word-embedding by Lil Log](https://lilianweng.github.io/lil-log/2017/10/15/learning-word-embedding.html#loss-functions)<br>
+* [wevi: word embedding visual inspector](https://ronxin.github.io/wevi/)<br>
+* []()<br>
+* []()<br>
 
 ### Unifying Word Embeddings and Matrix Factorization by Kian Kenyon-Dean
 * [2019: Part 1: The problems of viewing Word2vec as a neural network, and reviewing Levy & Goldberg’s attempted solution.](https://medium.com/radix-ai-blog/unifying-word-embeddings-and-matrix-factorization-part-1-cb3984e95141)<br>
