@@ -21,7 +21,7 @@
 [весьма удачная иллюстрация векторного вложения слов и выделения компонент разными методами http://projector.tensorflow.org/](http://projector.tensorflow.org/)<br>
 
 
-# w2v
+# w2v. Check out this [demo: http://projector.tensorflow.org/](http://projector.tensorflow.org/)
 * [2013: Distributed Representations of Words and Phrases and their Compositionality, by Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeffrey Dean](https://arxiv.org/abs/1310.4546)<br>
 * [31+ implementations of word2vec in Py et al](https://paperswithcode.com/paper/distributed-representations-of-words-and-1#code)<br>
 * [VERY NICE: 2017: Lilian Weng: learning-word-embedding by Lil Log](https://lilianweng.github.io/lil-log/2017/10/15/learning-word-embedding.html#loss-functions)<br>
