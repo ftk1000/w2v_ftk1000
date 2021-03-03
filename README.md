@@ -24,21 +24,20 @@
 # w2v
 * [2013: Distributed Representations of Words and Phrases and their Compositionality, by Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeffrey Dean](https://arxiv.org/abs/1310.4546)<br>
 * [31+ implementations of word2vec in Py et al](https://paperswithcode.com/paper/distributed-representations-of-words-and-1#code)<br>
-* [2014: Neural Word Embedding as Implicit Matrix Factorization. Omer Levy and Yoav Goldberg](https://wordrepr.danieldk.eu/levy-2014.pdf)<br>
-* [2016: skipgram-isnt-matrix-factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/)<br>
-
-## W2V and Matrix Factorization
 * [VERY NICE: 2017: Lilian Weng: learning-word-embedding by Lil Log](https://lilianweng.github.io/lil-log/2017/10/15/learning-word-embedding.html#loss-functions)<br>
 * [wevi: word embedding visual inspector](https://ronxin.github.io/wevi/)<br>
-* []()<br>
-* []()<br>
-* []()<br>
-* []()<br>
 
+## W2V and Matrix Factorization
+* [2014: Neural Word Embedding as Implicit Matrix Factorization. Omer Levy and Yoav Goldberg](https://wordrepr.danieldk.eu/levy-2014.pdf)<br>
+* [2016: skipgram-isnt-matrix-factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/)<br>
+* [REDDIT: word2vec_is_actually_just_matrix_factorization](https://www.reddit.com/r/MachineLearning/comments/2m34kp/word2vec_is_actually_just_matrix_factorization/)<br>
 ### Unifying Word Embeddings and Matrix Factorization by Kian Kenyon-Dean
 * [2019: Part 1: The problems of viewing Word2vec as a neural network, and reviewing Levy & Goldberg’s attempted solution.](https://medium.com/radix-ai-blog/unifying-word-embeddings-and-matrix-factorization-part-1-cb3984e95141)<br>
 * [2019: Part 2: Finding the true explicit matrix factorization formulation of Word2vec](https://medium.com/radix-ai-blog/unifying-word-embeddings-and-matrix-factorization-part-2-a0174ace78b8)<br>
 * [2019: Part 3: Implementing Word2vec as matrix factorization… in TensorFlow 2.0!](https://medium.com/radix-ai-blog/unifying-word-embeddings-and-matrix-factorization-part-3-4269d9a07470)<br>
+* []()<br>
+* []()<br>
+* []()<br>
 
 
 [reddit: word2vec is actually just matrix factorization](https://www.reddit.com/r/MachineLearning/comments/2m34kp/word2vec_is_actually_just_matrix_factorization/)<br>
