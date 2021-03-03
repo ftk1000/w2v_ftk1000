@@ -25,7 +25,7 @@
 * [2013: Distributed Representations of Words and Phrases and their Compositionality, by Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeffrey Dean](https://arxiv.org/abs/1310.4546)<br>
 * [31+ implementations of word2vec in Py et al](https://paperswithcode.com/paper/distributed-representations-of-words-and-1#code)<br>
 * [2014: Neural Word Embedding as Implicit Matrix Factorization. Omer Levy and Yoav Goldberg](https://wordrepr.danieldk.eu/levy-2014.pdf)<br>
-* [2016: skipgram-isnt-matrix-factorisation](tp://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/)<br>
+* [2016: skipgram-isnt-matrix-factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/)<br>
 
 ## W2V and Matrix Factorization
 * [VERY NICE: 2017: Lilian Weng: learning-word-embedding by Lil Log](https://lilianweng.github.io/lil-log/2017/10/15/learning-word-embedding.html#loss-functions)<br>
