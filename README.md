@@ -1,6 +1,11 @@
+# embedding visualized
+* [IMDB viz](http://iggisv9t.xyz/imdb/?nodenumber=tt0068646)<br>
+* []()<br>
+
 # w2v_ftk1000
 
-[полезная книжка https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)<br>
+[полезная книжка: Python Data Science Handbook 
+by Jake VanderPlas at https://colab.research.google.com/github/jakevdp/...](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)<br>
 []()<br>
 
 ## Chris McCormick's Tutorials 
